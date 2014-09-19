@@ -14,7 +14,7 @@
 }
 
 .genesis-nav-menu a {
-	color: #333;
+	color: $nav-link;
 	display: block;
 	padding: 30px 24px;
 }
@@ -22,7 +22,7 @@
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #e5554e;
+	color: $nav-hover;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -39,10 +39,10 @@
 }
 
 .genesis-nav-menu .sub-menu a {
-	background-color: #fff;
-	border: 1px solid #eee;
+	background-color: $sub-nav-background;
+	border: 1px solid $sub-nav-border;
 	border-top: none;
-	font-size: 14px;
+	font-size: 0.875em;
 	padding: 20px;
 	position: relative;
 	width: 200px;
@@ -70,7 +70,7 @@
 }
 
 .genesis-nav-menu > .right {
-	color: #fff;
+	color: $nav-right;
 	float: right;
 	list-style-type: none;
 	padding: 30px 0;
@@ -93,7 +93,7 @@
 --------------------------------------------- */
 
 .site-header .sub-menu {
-	border-top: 1px solid #eee;
+	border-top: 1px solid $sub-menu-border;
 }
 
 .site-header .sub-menu .sub-menu {
@@ -108,26 +108,26 @@
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #333;
+	background-color: $nav-pri-background;
 }
 
 .nav-primary .genesis-nav-menu a {
-	color: #fff;
+	color: $nav-pri-link;
 }
 
 .nav-primary .genesis-nav-menu .sub-menu a {
-	color: #333;
+	color: $nav-pri-sub-link;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #e5554e;
+	color: $nav-hover;
 }
 
 /* ## Secondary Navigation
 --------------------------------------------- */
 
 .nav-secondary {
-	background-color: #fff;
+	background-color: $nav-sec-background;
 }
