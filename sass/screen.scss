@@ -1,0 +1,20 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* Import Genesis base styles */
+@import "genesis/_reset.scss";
+@import "genesis/_variables.scss";
+@import "genesis/_defaults.scss";
+@import "genesis/_structure.scss";
+@import "genesis/_common.scss";
+@import "genesis/_widgets.scss";
+@import "genesis/_plugins.scss";
+@import "genesis/_header.scss";
+@import "genesis/_navigation.scss";
+@import "genesis/_content.scss";
+@import "genesis/_sidebars.scss";
+@import "genesis/_footerwidgets.scss";
+@import "genesis/_footer.scss";
+@import "genesis/_media.scss";
