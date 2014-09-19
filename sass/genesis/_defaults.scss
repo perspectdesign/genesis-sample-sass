@@ -215,9 +215,9 @@ select,
 textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
-	color: #333;
-	font-size: 18px;
-	font-weight: 300;
+	color: $text-color;
+	font-size: $font-size;
+	font-weight: $font-weight;
 	padding: 16px;
 	width: 100%;
 }
@@ -235,14 +235,14 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-	color: #333;
-	font-weight: 300;
+	color: $text-color;
+	font-weight: $font-weight;
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-	color: #333;
-	font-weight: 300;
+	color: $text-color;
+	font-weight: $font-weight;
 }
 
 button,
@@ -252,10 +252,10 @@ input[type="submit"],
 .button {
 	background-color: #333;
 	border: none;
-	color: #fff;
+	color: $button-text;
 	cursor: pointer;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: $font-weight;
 	padding: 16px 24px;
 	text-transform: uppercase;
 	width: auto;
@@ -266,8 +266,8 @@ input[type="submit"],
 .footer-widgets input[type="reset"],
 .footer-widgets input[type="submit"],
 .footer-widgets .button {
-	background-color: #e5554e;
-	color: #fff;
+	background-color: $button-background;
+	color: $button-text;;
 }
 
 button:hover,
@@ -275,12 +275,12 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
-	background-color: #e5554e;
-	color: #fff;
+	background-color: $button-background;
+	color: $button-text;
 }
 
 .entry-content .button:hover {
-	color: #fff;
+	color: $button-text;
 }
 
 .footer-widgets button:hover,
@@ -288,8 +288,8 @@ input:hover[type="submit"],
 .footer-widgets input:hover[type="reset"],
 .footer-widgets input:hover[type="submit"],
 .footer-widgets .button:hover {
-	background-color: #fff;
-	color: #333;
+	background-color: $button-text;
+	color: $button-background;
 }
 
 .button {
