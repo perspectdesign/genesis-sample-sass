@@ -19,20 +19,20 @@
 }
 
 .enews-widget input {
-	font-size: 16px;
+	font-size: 1em;
 	margin-bottom: 16px;
 }
 
 .enews-widget input[type="submit"] {
-	background-color: #e5554e;
-	color: #fff;
+	background-color: $link;
+	color: $button-text;
 	margin: 0;
 	width: 100%;
 }
 
 .enews-widget input:hover[type="submit"] {
 	background-color: #fff;
-	color: #333;
+	color: $text-color;
 }
 
 .enews form + p {
