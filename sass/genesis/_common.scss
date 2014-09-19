@@ -31,13 +31,13 @@
 .archive-description,
 .author-box {
 	background-color: #fff;
-	font-size: 16px;
+	font-size: 1em;
 	margin-bottom: 40px;
 	padding: 40px;
 }
 
 .author-box-title {
-	font-size: 16px;
+	font-size: 1em;
 	margin-bottom: 4px;
 }
 
@@ -78,24 +78,24 @@
 --------------------------------------------- */
 
 .archive-title {
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 .entry-title {
-	font-size: 36px;
+	font-size: 2.25em;
 }
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	color: $text-color;
 }
 
 .entry-title a:hover {
-	color: #e5554e;
+	color: $link;
 }
 
 .widget-title {
-	font-size: 18px;
+	font-size: 1.125em;
 	margin-bottom: 20px;
 }
 
@@ -155,7 +155,7 @@ img.alignright,
 }
 
 .wp-caption-text {
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 700;
 	text-align: center;
 }
