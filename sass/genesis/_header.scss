@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #fff;
+	background-color: $header-background;
 	min-height: 160px;
 }
 
@@ -24,14 +24,14 @@
 }
 
 .site-title {
-	font-size: 32px;
-	font-weight: 400;
+	font-size: 2em;
+	font-weight: $heading-font-weight;
 	line-height: 1.2;
 }
 
 .site-title a,
 .site-title a:hover {
-	color: #333;
+	color: $heading-color;
 }
 
 .header-image .site-title > a {
@@ -43,7 +43,7 @@
 
 .site-description {
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: $font-weight;
 	line-height: 1.5;
 }
 
