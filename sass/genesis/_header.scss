@@ -8,15 +8,15 @@
 
 .site-header .wrap {
 	padding: 40px 0;
+	@extend .pure-g;
 }
 
 /* ## Title Area
 --------------------------------------------- */
 
 .title-area {
-	float: left;
-	padding: 10px 0;
-	width: 360px;
+	@extend .pure-u-1;
+	@extend .pure-u-md-1-3;
 }
 
 .header-full-width .title-area {
@@ -42,7 +42,7 @@
 }
 
 .site-description {
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: $font-weight;
 	line-height: 1.5;
 }
@@ -62,7 +62,7 @@
 --------------------------------------------- */
 
 .site-header .widget-area {
-	float: right;
+	@extend .pure-u-1;
+	@extend .pure-u-md-2-3;
 	text-align: right;
-	width: 800px;
 }
